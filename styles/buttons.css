@@ -1,0 +1,27 @@
+/* Логотип */
+
+.logo {
+    width: 140px;
+    height: 22px;
+    display: flex;
+}
+
+.circle {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #333333;
+    border-radius: 100%;
+}
+
+.elips {
+    width: 32px;
+    height: 17px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+}
+
+.logo_name {
+    font-family: Ubutu, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}

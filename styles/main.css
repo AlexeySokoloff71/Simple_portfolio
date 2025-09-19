@@ -4,7 +4,9 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
-
+body {
+    margin: 0;
+}
 .container {
     width: 100%;
     max-width: 1110px;
