@@ -6,10 +6,93 @@ html {
 }
 body {
     margin: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
 }
 .container {
     width: 100%;
-    max-width: 1110px;
+    max-width: 1440px;
+    height: 100%;
     margin: 0 auto;
     padding: 0 165px;
 }
+
+/* Раздел "header" */
+
+.header {
+    width: 100%;
+    max-width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 1110px;
+    height: 80PX;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+}
+
+ul.menu {
+    padding: 0;
+    vertical-align: baseline;
+}
+
+ul.menu > li {
+    display: inline;
+    height: 23px;
+    margin: 0 30px;
+}
+
+ul.menu > li:nth-child(1) {
+    margin-left: 0;
+}
+
+ul.menu > li:nth-child(6) {
+    margin: 0;
+}
+
+ul.menu > li > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #4C5866;
+}
+
+ul.menu > li > a:hover {
+    color: #7875FE;
+}
+
+.search {
+    margin: auto;
+    background-color: #7875FE;
+    background-image: url("logo/search.png");
+    height: 24px;
+    width: 24px;
+}
+
+.log-in {
+    margin: auto;
+    background: url("logo/log-in.png") no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+/*
+
+ul.menu > li > a > img {
+    vertical-align: middle;
+}
+
+ul.menu > li > a > img:hover {
+    
+} */

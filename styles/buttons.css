@@ -4,6 +4,9 @@
     width: 140px;
     height: 22px;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .circle {
@@ -25,3 +28,6 @@
     font-size: 20px;
     color: #333333;
 }
+
+/* Светлый логотип */
+
