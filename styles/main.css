@@ -40,7 +40,7 @@ body {
 
 nav {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 ul.menu {
@@ -69,30 +69,81 @@ ul.menu > li > a {
 }
 
 ul.menu > li > a:hover {
+    transition: 0.5s;
     color: #7875FE;
 }
 
+ul.menu > li > a:active {
+    transition: 0.2s;
+    color: #4C5866;
+    background-color: #DAD9FB;
+}
+
 .search {
-    margin: auto;
-    background-color: #7875FE;
-    background-image: url("logo/search.png");
+    margin: auto 15px auto 30px;
+    background-image: url("/logo/search.svg");
     height: 24px;
     width: 24px;
+}
+
+.search:hover {
+    transition: 0.5s;
+    background-image: url("/logo/search-hover.svg");
+}
+
+.search:active {
+    transition: 0.2s;
+    background-image: url("/logo/search-focus.svg");
 }
 
 .log-in {
-    margin: auto;
-    background: url("logo/log-in.png") no-repeat;
+    margin: auto 0 auto 15px;
+    background: url("/logo/log-in.svg") no-repeat;
     height: 24px;
     width: 24px;
 }
 
-/*
-
-ul.menu > li > a > img {
-    vertical-align: middle;
+.log-in:hover {
+    transition: 0.5s;
+    background-image: url("/logo/log-in-hover.svg");
 }
 
-ul.menu > li > a > img:hover {
-    
-} */
+.log-in:active {
+    transition: 0.2s;
+    background-image: url("/logo/log-in-focus.svg");
+}
+
+/* Раздел "hero" */
+
+.hero_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_left {
+    width: 445px;
+}
+
+.hero_title {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 95%;
+    color: #4C5866;
+}
+
+.hero_text {
+    font-size: 18px;
+    line-height: 150%;
+    color: #85859B;
+}
+
+.hero_right {
+    margin: 60px 0 0;
+    padding: 0;
+    width: 540px;
+    height: 560px;
+    background-image: url("/images/hero\ image.svg");
+}
+

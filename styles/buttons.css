@@ -27,7 +27,45 @@
     font-family: Ubutu, sans-serif;
     font-size: 20px;
     color: #333333;
+    cursor: default;
 }
 
+.logo:hover {
+    .circle {
+        transition: 0.5s;
+        border-color: #7875FE;
+    }
+    .elips {
+        transition: 0.5s;
+        border-color: #7875FE;
+    }
+    .logo_name {
+        transition: 0.5s;
+        color: #7875FE;
+    }
+}
 /* Светлый логотип */
 
+
+/* Кнопка "button" */
+
+.button {
+    width: 225px;
+    height: 70px;
+    font-size: 20px;
+    color: #7875FE;
+    background-color: #FFFFFF;
+    border: 1px solid #7875FE;
+}
+
+.button:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+    background-color: #7875FE;
+}
+
+.button:active {
+    transition: 0.1s;
+    color: #7875FE;
+    background-color: #DAD9FB;
+}
