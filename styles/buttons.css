@@ -46,6 +46,17 @@
 }
 /* Светлый логотип */
 
+.logo__footer>div.circle {
+    border-color: #FFFFFF;
+}
+
+.logo__footer>div.logo_name {
+    color: #FFFFFF;
+}
+
+.logo__footer>div.elips {
+    border-color: #FFFFFF;
+}
 
 /* Кнопка "button" */
 
@@ -73,4 +84,27 @@ a.button {
     color: #7875FE;
     background-color: #DAD9FB;
     border: 1px solid #7875FE;
+}
+
+/* Ссылка "Подробнее" */
+
+.product__details {
+    color: #7875FE;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.product__details--button {
+    width: 130px;
+    text-align: left;
+    vertical-align: middle;
+    background-image: url("/logo/Arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 6px;
+}
+
+.product__details--button:hover {
+    transition: 0.5s;
+    color: #4946B4;
+    background-image: url("/logo/Arrow-hover.svg");
 }

@@ -23,6 +23,10 @@
     .result__bottom__title {
         font-size: 30px;
     }
+    .sketch {
+        background-position: right  bottom;
+        background-size: 55%;
+    }
 }
 
 @media screen and (max-width: 1055px) {
@@ -36,6 +40,24 @@
         width: 270px;
         height: 410px;
         background-image: url("/images/hero\ image2.svg");
+    }
+    .sketch {
+        background-image: url("/images/sketch-1.svg");
+        background-position: right  bottom;
+        background-size: auto;
+    }
+    .product__list {
+        flex-wrap: wrap;
+    }
+    .product__card {
+        width: 330px;
+        padding: 230px 0 24px;
+        background-size: 330px;
+    }
+    .partners__card {
+        width: 150px;
+        height: 80px;
+        background-size: 115px 32px;
     }
 }
 
@@ -90,6 +112,22 @@
     .result__bottom__text {
         font-size: 16px;
     }
+    .product__card {
+        width: 240px;
+        padding: 180px 0 24px;
+        background-size: 240px;
+    }
+    .partners__list {
+        flex-wrap: wrap;
+    }
+    .partners__card {
+        width: 240px;
+        height: 127px;
+    }
+    .partners__card--3,
+    .partners__card--4 {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 625px) {
@@ -98,6 +136,10 @@
     }
     .result__top {
         flex-direction: column;
+    }
+    .result__top__item {
+        padding: 35px 0 25px 190px;
+        background-position: left center;
     }
     .result__top__item {
         width: 100%;
@@ -112,9 +154,9 @@
         padding: 0 15px;
     }
     .hero_inner {
-        margin-top: 49px;
+        margin-top: 0;
         justify-content: center;
-        padding: 0;
+        padding: 49px 0;
     }
     .hero_title {
         font-size: 30px;
@@ -142,5 +184,57 @@
     }
     .logo {
         margin: 0 35%;
+    }
+    .result__top {
+        flex-direction: column;
+    }
+    .result__top__item {
+        padding: 35px 0 25px 190px;
+        background-position: left center;
+    }
+    .result__top__item {
+        width: 100%;
+        padding-left: 140px;
+        background-size: 130px 96px;
+    }
+    .result__bottom {
+        background-size: 290px 223px;
+    }
+    .sketch {
+        background-position: top 20px center;
+        background-size: 290px 221px;
+    }
+    .sketch__item {
+        padding: 260px 0 0;
+    }
+    .sketch__info {
+        width: 289px;
+    }
+    .sketch__title {
+        font-size: 24px;
+    }
+    .sketch__text {
+        width: 100%;
+        font-size: 16px;
+    }
+    .logo__footer {
+        margin: 0 auto;
+    }
+    footer {
+        height: 130px;
+    }
+    .socials__icon {
+        margin: 25px auto;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .partners__card {
+        margin: auto;
+    }
+    .partners__card--2,
+    .partners__card--3,
+    .partners__card--4 {
+        margin-top: 30px;
     }
 }
